@@ -1,0 +1,44 @@
+.property-listings-container {
+  padding: 20px;
+}
+
+.property-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.property-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.property-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.property-card h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.property-card p {
+  margin-bottom: 5px;
+}
+
+.property-card button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.property-card button:hover {
+  background-color: #0056b3;
+}
